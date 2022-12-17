@@ -2,6 +2,7 @@
 #define CALC_H
 #include <gtk/gtk.h>
 typedef struct calbutton
+	
 {
 	char *value;
 	GtkWidget *button;
