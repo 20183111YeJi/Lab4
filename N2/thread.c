@@ -3,6 +3,8 @@
 #include <stdlib.h>
 
 void *join_thread(void *arg)
+	
+	
 {
 	pthread_exit(arg); /* return arg; */
 }
