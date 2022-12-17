@@ -7,6 +7,7 @@
 char message[BUFFER_SIZE] = "I'm Child Thread:)";
 int message_count = 0;
 
+
 pthread_mutex_t insert_mutex;
 pthread_mutex_t client_mutex;
 pthread_mutex_t server_mutex;
