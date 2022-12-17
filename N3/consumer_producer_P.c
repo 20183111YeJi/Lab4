@@ -4,6 +4,7 @@
 #define BUFFER_SIZE 100 
 #define THREAD_COUNT 4 
 
+
 int buffer[BUFFER_SIZE]; 
 int in = -1; // 생산자 변수
 int out = -1; // 소비자 변수
