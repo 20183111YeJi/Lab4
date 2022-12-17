@@ -107,6 +107,7 @@ void create_num_button(GtkWidget *box, GtkWidget *button, char* button_num)
 	gtk_widget_show(button);
 }
 
+
 void click_number(GtkWidget *widget, gpointer data)
 {
 	if(need_clear)
