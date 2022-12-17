@@ -1,6 +1,7 @@
 #include <gtk/gtk.h>
 #include <stdio.h>
 void quit(GtkWidget *window, gpointer data)
+	
 {
 	gtk_main_quit();
 }
